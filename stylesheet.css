@@ -1,0 +1,136 @@
+body {
+    background-color: #303030;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+
+ul, ol, dl {
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+    color: #000;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+a img {
+    border: none;
+    text-decoration: none;
+}
+
+
+a:link {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #395bff;
+    text-decoration: none;
+
+}
+a:visited {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #395bff;
+    text-decoration: none;
+}
+a:hover, a:active, a:focus {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: #395bff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    min-width: 720px;
+    background-color: #303030;
+    margin: 0 auto;
+    position: relative;
+}
+.header {
+    width: 100%;
+    background-color: rgba(16, 16, 16, 0.7);
+    height: 75px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    border-bottom: solid 2px #000;
+}
+.headertext {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+/* LANDING HOME PAGE*/
+.landing {
+    margin: 0 auto;
+    background-image: url("http://iliketowastemytime.com/sites/default/files/rolling-hills-hd-wallpaper.jpg");
+    background-size: cover;
+    height: 725px;
+    width: 100%;
+    border-top: 40px solid #000;
+    border-bottom: 40px solid #000;
+    position: relative;
+}
+#landingimage {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 42.25%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px 0 0 15px;
+    border: solid 1px #000;
+}
+.landingdesc {
+    margin: 0;
+    top: 50%;
+    left: 57.75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 330px;
+    height: 140px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+    border: solid 1px #000;
+}
+
+
+.underground {
+    margin: 0 auto;
+    background-image: url("http://dirttwister.com/images/reflex/wiki/Kingston_rnd1_dirt.jpg");
+    background-repeat: repeat;
+    height: 725px;
+    width: 100%;
+    border-bottom: 40px solid #000;
+}
