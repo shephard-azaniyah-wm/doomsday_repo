@@ -97,9 +97,9 @@ ul.MenuBarHorizontal ul
 /* Menu items are a light gray block with padding and no text decoration */
 ul.MenuBarHorizontal a
 {
+	height: 30px;
 	display: block;
 	cursor: pointer;
-	background-color: background: rgba(75, 75, 75, 0.6);;
 	padding: 25px;
 	color: #FFF;
 	text-decoration: none;
