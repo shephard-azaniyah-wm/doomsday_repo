@@ -103,6 +103,7 @@ a:hover, a:active, a:focus {
     margin: 0;
     border-radius: 15px 0 0 15px;
     border: solid 1px #000;
+    background-color: antiquewhite;
 }
 .landingdesc {
     margin: 0;
@@ -120,7 +121,7 @@ a:hover, a:active, a:focus {
     margin: 0 auto;
     background-image: url("http://dirttwister.com/images/reflex/wiki/Kingston_rnd1_dirt.jpg");
     background-repeat: repeat;
-    height: 725px;
+    min-height: 725px;
     width: 100%;
     border-bottom: 40px solid #000;
 }
