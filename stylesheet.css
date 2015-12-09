@@ -123,6 +123,14 @@ a:hover, a:active, a:focus {
     background-color: #FFFFFF;
     color: #000;
 }
+.contentLanding {
+    margin: 0 auto;
+    padding: 10px 5px;
+    max-width: 1020px;
+    min-height: 725px;
+    background-color: #FFFFFF;
+    color: #000;
+}
 .customerInfo , .customerPurchasing {
     margin: 0 auto;
     text-align: center;
@@ -148,8 +156,4 @@ hr.fade {
     min-height: 725px;
     width: 100%;
     border-bottom: 40px solid #000;
-}
-
-.undergroundCont {
-
 }
